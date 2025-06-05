@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="jatekok.css">
+    <script src="./rekordok.js"></script>
+    <title>Egyszemélyes logikai játékok</title>
 </head>
-<link rel="stylesheet" href="a jatekok.css">
-    <link rel="stylesheet" href="a rekordok.js">
 <body>
     <header>
         <h1>Egyszemélyes logikai játékok</h1>
-    </header>
-    
+    </header class="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-md-8 align-self-center">
@@ -42,19 +43,19 @@
                     <div class="card">
                         <table>
                             <tr>
-                                <td>Kockaméret:</td>
-                                <td><span id="kmeret">3 x 3</span></td>
-                            </tr>
-                            <tr>
-                                <td>Magyar rekord:</td>
-                                <td><span id="kido">5,56 mp</span></td>
-                            </tr>
-                            <tr>
-                                <td>Magyar Rekorder:</td>
-                                <td><span id="knev">Slezák Gábor</span></td>
+          <td>Kockaméret:</td>
+                <td><span id="kmeret">3 x 3</span></td>
+     </tr>
+    tr>
+      <td>Magyar rekord:</td>
+     <td><span id="kido">5,56 mp</span></td>
+     </tr>
+     <tr>
+       <td>Magyar Rekorder:</td>
+      <td><span id="knev">Slezák Gábor</span></td>
                             </tr>
                         </table>
-                        <br>
+                 <br>
                         <p class="text-center">
                             <input type="range" min="2" oninput="frissit(this.value);">
                         </p>
@@ -71,6 +72,7 @@
     </footer>
 </body>
 </html>
+
 
 <!-- Miguel Á. Padriñán fotója a Pexelsről: https://www.pexels.com/hu-hu/foto/ipar-technologia-gyar-kor-3785932/ -->
 <!-- https://hu.wikipedia.org/wiki/Hanoi_tornyai -->
